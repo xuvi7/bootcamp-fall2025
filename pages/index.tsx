@@ -59,7 +59,7 @@ const Home: NextPage = () => {
                         <p className="text-xl md:text-2xl opacity-75 font-light mt-4">
                             Meet other Full Stack at Brown members and enjoy a meal on us, all while learning modern web
                             development.
-                            Throughout the week, you&apos;ll learn industry standard tooling and technologies by
+                            Throughout the week, you&apos;ll learn industry-standard tooling and technologies by
                             building a real project you can add to your portfolio.
                         </p>
                     </section>
