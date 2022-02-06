@@ -5,7 +5,7 @@ import {useEffect, useState} from "react";
 
 const workshops: { name: string; description: string; image: string; }[] = [
     {
-        name: "Day 1: Web Development Fundamentals",
+        name: "Day 1: Web Fundamentals",
         description: "Start with the underlying technologies of the web: HTML, CSS, and Javascript.",
         image: "/basics.png"
     }, {
@@ -23,7 +23,7 @@ const workshops: { name: string; description: string; image: string; }[] = [
         image: "/deploy.png"
     }, {
         name: "Day 5: Closing",
-        description: "Add the finishing touches to your app and see what's next.",
+        description: "Add the finishing touches to your app, ask questions, and see where to go from here.",
         image: "/touches.png"
     }];
 
@@ -40,12 +40,12 @@ const Home: NextPage = () => {
             className={"min-h-screen transition-opacity ease-in duration-500 " + (loaded ? "opacity-100" : "opacity-0")}>
             <div style={{backgroundImage: "url('/flare.jpg')", backgroundPosition: "bottom"}}>
                 <div
-                    className={`p-4 z-50 flex items-center justify-between fixed bg-opacity-40 transition-all duration-150 bg-[#06080D] backdrop-blur-lg w-full ${scrollPosition < 10 && "backdrop-blur-none bg-opacity-0"}`}>
+                    className={`p-4 z-50 text-sm md:text-base flex items-center justify-between fixed bg-opacity-40 transition-all duration-150 bg-[#06080D] backdrop-blur-lg w-full ${scrollPosition < 10 && "backdrop-blur-none bg-opacity-0"}`}>
                     <p className="font-bold">Full Stack at Brown</p>
-                    <div className="space-x-9">
+                    <nav className="space-x-9">
                         <a>Add to Calendar</a>
                         <a>About</a>
-                    </div>
+                    </nav>
                 </div>
                 <div className="max-w-5xl px-4 mx-auto pt-36 space-y-24">
                     <section>

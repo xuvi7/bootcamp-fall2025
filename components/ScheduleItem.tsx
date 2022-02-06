@@ -8,7 +8,7 @@ export default function ScheduleItem({
         <div className="flex items-center justify-start">
             <img src={image} className="h-12 mr-4"/>
             <div>
-                <p className="text-lg md:text-xl ">
+                <p className="text-base md:text-lg lg:text-xl">
                     {name}
                 </p>
                 <p className="font-mono text-xs md:text-sm opacity-50 font-light">
