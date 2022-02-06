@@ -2,6 +2,7 @@ import type {NextPage} from 'next'
 import ScheduleItem from "../components/ScheduleItem";
 import useScrollPosition from "../util/useScrollPosition";
 import {useEffect, useState} from "react";
+import LinkCard from "../components/LinkCard";
 
 const workshops: { name: string; description: string; image: string; }[] = [
     {
@@ -58,8 +59,8 @@ const Home: NextPage = () => {
                         <p className="text-xl md:text-2xl opacity-75 font-light mt-4">
                             Meet other Full Stack at Brown members and enjoy a meal on us, all while learning modern web
                             development.
-                            Throughout the week, we&apos;ll introduce you to industry standard tooling and technologies
-                            by building a real project.
+                            Throughout the week, you&apos;ll learn industry standard tooling and technologies by
+                            building a real project you can add to your portfolio.
                         </p>
                     </section>
                     <section>
@@ -89,51 +90,15 @@ const Home: NextPage = () => {
                         More stuff
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-                        <div
-                            className="p-5 md:p-6 backdrop-blur-md bg-opacity-50 border border-[#30363C] bg-[#0B1016] rounded-lg">
-                            <div>
-                                <p className="text-lg md:text-xl">
-                                    Set up your development environment
-                                </p>
-                                <p className="font-mono text-xs md:text-sm opacity-50 font-light mt-1">
-                                    Before starting, download and install the tooling we&apos;ll use all week.
-                                </p>
-                            </div>
-                        </div>
-                        <div
-                            className="p-5 md:p-6 backdrop-blur-md bg-opacity-50 border border-[#30363C] bg-[#0B1016] rounded-lg">
-                            <div>
-                                <p className="text-lg md:text-xl">
-                                    Download project starter
-                                </p>
-                                <p className="font-mono text-xs md:text-sm opacity-50 font-light mt-1">
-                                    Clone the starter code you&apos;ll complete throughout the bootcamp.
-                                </p>
-                            </div>
-                        </div>
-                        <div
-                            className="p-5 md:p-6 backdrop-blur-md bg-opacity-50 border border-[#30363C] bg-[#0B1016] rounded-lg">
-                            <div>
-                                <p className="text-lg md:text-xl">
-                                    View project demo
-                                </p>
-                                <p className="font-mono text-xs md:text-sm opacity-50 font-light mt-1">
-                                    See a live demo of the project you&apos;ll implement in bootcamp.
-                                </p>
-                            </div>
-                        </div>
-                        <div
-                            className="p-5 md:p-6 backdrop-blur-md bg-opacity-50 border border-[#30363C] bg-[#0B1016] rounded-lg">
-                            <div>
-                                <p className="text-lg md:text-xl">
-                                    Submit your project for certification
-                                </p>
-                                <p className="font-mono text-xs md:text-sm opacity-50 font-light mt-1">
-                                    Send us your completed bootcamp project to become eligible to work on projects for
-                                    Full Stack.
-                                </p>
-                            </div>
-                        </div>
+                        <LinkCard title="Set up your development environment"
+                                  description="Download and install the tooling we'll use throughout the week."/>
+                        <LinkCard title="Download project starter"
+                                  description="Clone the starter code for the project we'll build together."/>
+                        <LinkCard title="View project demo"
+                                  description="See a live demo of the project you'll build throughout the week."/>
+                        <LinkCard title="Submit your project for certification"
+                                  description="Send us your completed bootcamp project to become eligible to work on projects for
+                                    Full Stack."/>
                     </div>
                 </section>
             </div>
