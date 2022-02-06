@@ -1,6 +1,7 @@
 import type {NextPage} from 'next'
 import ScheduleItem from "../components/ScheduleItem";
 import useScrollPosition from "../util/useScrollPosition";
+import {useEffect, useState} from "react";
 
 const workshops: { name: string; description: string; image: string; }[] = [
     {
@@ -28,8 +29,15 @@ const workshops: { name: string; description: string; image: string; }[] = [
 
 const Home: NextPage = () => {
     const scrollPosition = useScrollPosition();
+    const [loaded, setLoaded] = useState(false);
+
+    useEffect(() => {
+        setTimeout(() => setLoaded(true), 300);
+    }, []);
+
     return (<div>
-        <div className="min-h-screen">
+        <div
+            className={"min-h-screen transition-opacity ease-in duration-500 " + (loaded ? "opacity-100" : "opacity-0")}>
             <div style={{backgroundImage: "url('/flare.jpg')", backgroundPosition: "bottom"}}>
                 <div
                     className={`p-4 z-50 flex items-center justify-between fixed bg-opacity-40 transition-all duration-150 bg-[#06080D] backdrop-blur-lg w-full ${scrollPosition < 10 && "backdrop-blur-none bg-opacity-0"}`}>
@@ -41,8 +49,8 @@ const Home: NextPage = () => {
                 </div>
                 <div className="max-w-5xl px-4 mx-auto pt-36 space-y-24">
                     <section>
-                        <p className="text-lg md:text-xl font-mono">
-                            FEB 24 — 28, 2022
+                        <p className="text-lg md:text-xl font-mono uppercase">
+                            Feb 14 — 18, 2022
                         </p>
                         <h1 className="mt-2 text-4xl md:text-6xl font-semibold">
                             Web Development Bootcamp
