@@ -44,8 +44,9 @@ const Home: NextPage = () => {
                     className={`p-4 z-50 text-sm md:text-base flex items-center justify-between fixed bg-opacity-40 transition-all duration-150 bg-[#06080D] backdrop-blur-lg w-full ${scrollPosition < 10 && "backdrop-blur-none bg-opacity-0"}`}>
                     <p className="font-bold">Full Stack at Brown</p>
                     <nav className="space-x-9">
-                        <a>Add to Calendar</a>
-                        <a>About</a>
+                        <a href="https://calendar.google.com/calendar/u/0?cid=Y19mbjd2a3NvcXMybGkxdjl1ZDg1MzZibWFoZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t">Add
+                            to Calendar</a>
+                        <a href="https://www.fullstackatbrown.com/about">About FSAB</a>
                     </nav>
                 </div>
                 <div className="max-w-5xl px-4 mx-auto pt-36 space-y-24">
@@ -91,12 +92,14 @@ const Home: NextPage = () => {
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                         <LinkCard title="Set up your development environment"
+                                  href="https://docs.google.com/document/d/1GjeZ70nuwvh98TgvfdgmNR8RN2BATtPcJik6GcAdbV0/edit?usp=sharing"
                                   description="Download and install the tooling we'll use throughout the week."/>
-                        <LinkCard title="Download project starter"
-                                  description="Clone the starter code for the project we'll build together."/>
-                        <LinkCard title="View project demo"
-                                  description="See a live demo of the project you'll build throughout the week."/>
+                        {/*<LinkCard title="Download project starter"*/}
+                        {/*          description="Clone the starter code for the project we'll build together."/>*/}
+                        {/*<LinkCard title="View project demo"*/}
+                        {/*          description="See a live demo of the project you'll build throughout the week."/>*/}
                         <LinkCard title="Submit your project for certification"
+                                  href="https://docs.google.com/forms/d/e/1FAIpQLSdCtIwujK5cXeVbHaFWFARskiZulH22WFrirfNcdRE_VIBJLg/viewform?usp=sf_link"
                                   description="Send us your completed bootcamp project to become eligible to work on projects for
                                     Full Stack."/>
                     </div>
