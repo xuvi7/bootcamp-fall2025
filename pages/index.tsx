@@ -41,12 +41,12 @@ const Home: NextPage = () => {
             className={"min-h-screen transition-opacity ease-in duration-500 " + (loaded ? "opacity-100" : "opacity-0")}>
             <div style={{backgroundImage: "url('/flare.jpg')", backgroundPosition: "bottom"}}>
                 <div
-                    className={`p-4 z-50 text-sm md:text-base flex items-center justify-between fixed bg-opacity-40 transition-all duration-150 bg-[#06080D] backdrop-blur-lg w-full ${scrollPosition < 10 && "backdrop-blur-none bg-opacity-0"}`}>
+                    className={`p-4 z-50 text-sm sm:text-base flex items-center justify-between fixed bg-opacity-40 transition-all duration-150 bg-[#06080D] backdrop-blur-lg w-full ${scrollPosition < 10 && "backdrop-blur-none bg-opacity-0"}`}>
                     <p className="font-bold">Full Stack at Brown</p>
-                    <nav className="space-x-9">
+                    <nav className="space-x-6">
                         <a href="https://calendar.google.com/calendar/u/0?cid=Y19mbjd2a3NvcXMybGkxdjl1ZDg1MzZibWFoZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t">Add
                             to Calendar</a>
-                        <a href="https://www.fullstackatbrown.com/about">About FSAB</a>
+                        <a href="https://www.fullstackatbrown.com/about">About Us</a>
                     </nav>
                 </div>
                 <div className="max-w-5xl px-4 mx-auto pt-36 space-y-24">
