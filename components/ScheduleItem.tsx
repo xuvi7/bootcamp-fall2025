@@ -5,7 +5,7 @@ export default function ScheduleItem({
                                          handout,
                                          slides,
                                          recording,
-                                     }: { name: string; description: string; image: string; handout: string; slides: string; recording: string; }) {
+                                     }: { name: string; description: string; image: string; handout: string; slides?: string; recording: string; }) {
     return <li
         className="p-5 md:p-6 backdrop-blur-md bg-opacity-50 border border-[#30363C] bg-[#0B1016] rounded-lg">
         <div className="flex items-center justify-start">
@@ -20,9 +20,11 @@ export default function ScheduleItem({
             </div>
         </div>
         <div className="space-x-5 mt-6 text-xs md:text-sm opacity-50">
-           <a className="inline-flex items-center" href={handout}>
-               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-1" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" fill="currentColor" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" clipRule="evenodd"/>
+            <a className="inline-flex items-center" href={handout}>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-1" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" fill="currentColor"
+                          d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z"
+                          clipRule="evenodd"/>
                 </svg>
                 Handout
             </a>

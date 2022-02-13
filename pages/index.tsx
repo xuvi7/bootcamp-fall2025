@@ -4,20 +4,20 @@ import useScrollPosition from "../util/useScrollPosition";
 import {useEffect, useState} from "react";
 import LinkCard from "../components/LinkCard";
 
-const workshops: { name: string; description: string; image: string; handout: string; slides: string; recording: string; }[] = [
+const workshops: { name: string; description: string; image: string; handout: string; slides?: string; recording: string; }[] = [
     {
         name: "Day 1: Web Fundamentals",
         description: "Start with the underlying technologies of the web: HTML, CSS, and Javascript.",
         image: "/basics.png",
         handout: "https://docs.google.com/document/d/1a83KTdmtK0z4oZLaTgh_4ExTbAaTiTx3GJMGP-oLFsw/edit?usp=sharing",
-        slides: "https://docs.google.com/presentation/d/13qkkdAVIT6mwLy4qyAY9ynSAAHfGfz1sezf2kOYoQCE/edit?usp=sharing",
+        // slides: "https://docs.google.com/presentation/d/13qkkdAVIT6mwLy4qyAY9ynSAAHfGfz1sezf2kOYoQCE/edit?usp=sharing",
         recording: "",
     }, {
         name: "Day 2: Express + MongoDB",
         description: "Build a server to persist and manipulate data for your web apps using Express and MongoDB.",
         image: "/backend.png",
         handout: "https://docs.google.com/document/d/1WxxlqsyOYnptE33OxHUHaWjfRItncqZWroQAjnVVgGw/edit?usp=sharing",
-        slides: "https://docs.google.com/presentation/d/1NVNPa4c_-TtRdxGs6DDKbA4JTF5BEgu89UfT1s5Io-I/edit?usp=sharing",
+        // slides: "https://docs.google.com/presentation/d/1NVNPa4c_-TtRdxGs6DDKbA4JTF5BEgu89UfT1s5Io-I/edit?usp=sharing",
         recording: "",
     },
     {
@@ -25,21 +25,21 @@ const workshops: { name: string; description: string; image: string; handout: st
         description: "Build a user interface for your app using React: a modern front-end framework.",
         image: "/react.png",
         handout: "https://docs.google.com/document/d/1_RKXZ8zZeOjXBCHqUUzdO9HZIn6HTNcIJ1zp0fMalBk/edit?usp=sharing",
-        slides: "https://docs.google.com/presentation/d/1D-jKkyuI6bpI2aY_oMRXehN5akXosjJOOSVK4wKgFEg/edit?usp=sharing",
+        // slides: "https://docs.google.com/presentation/d/1D-jKkyuI6bpI2aY_oMRXehN5akXosjJOOSVK4wKgFEg/edit?usp=sharing",
         recording: "",
     }, {
         name: "Day 4: Integration",
         description: "Connect your front-end with your server with API calls, then deploy your app to the web.",
         image: "/deploy.png",
         handout: "https://docs.google.com/document/d/12pslUWkeq9Hi14vUFoOc8QhwdFv6IpuvGPktHP8G0tw/edit?usp=sharing",
-        slides: "https://docs.google.com/presentation/d/15S0QZL1J5B_GGwt6gJY-Q4cYRNxoY6siIWSxXvywWZ0/edit?usp=sharing",
+        // slides: "https://docs.google.com/presentation/d/15S0QZL1J5B_GGwt6gJY-Q4cYRNxoY6siIWSxXvywWZ0/edit?usp=sharing",
         recording: "",
     }, {
         name: "Day 5: Wrapping Up",
         description: "Add the finishing touches to your app, ask questions, and see where to go from here.",
         image: "/touches.png",
         handout: "https://docs.google.com/document/d/1mLgCG-N6sSERUtWw7tUtKrjHyB6ZVi8leX0wHat4_jE/edit?usp=sharing",
-        slides: "",
+        // slides: "",
         recording: "",
     }];
 
