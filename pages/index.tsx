@@ -1,4 +1,5 @@
 import type {NextPage} from 'next'
+import Head from 'next/head'
 import ScheduleItem from "../components/ScheduleItem";
 import useScrollPosition from "../util/useScrollPosition";
 import {useEffect, useState} from "react";
@@ -52,6 +53,10 @@ const Home: NextPage = () => {
     }, []);
 
     return (<div>
+        <Head>
+          <title>FSAB Bootcamp Spring 2022</title>
+          <meta property="og:title" content="FSAB Bootcamp Spring 2022" key="title" />
+        </Head>
         <div
             className={"min-h-screen transition-opacity ease-in duration-500 " + (loaded ? "opacity-100" : "opacity-0")}>
             <div style={{backgroundImage: "url('/flare.jpg')", backgroundPosition: "bottom"}}>
@@ -77,6 +82,15 @@ const Home: NextPage = () => {
                             development.
                             Throughout the week, you&apos;ll learn industry-standard tooling and technologies by
                             building a real project you can add to your portfolio.
+                        </p>
+                        <p className="text-l md:text-xl opacity-75 mt-4">
+                            Times: <strong>February 14 - 18, 8pm - 10pm</strong>
+                        </p>
+                        <p className="text-l md:text-xl opacity-75 mt-1">
+                            Location: <strong>Barus & Holley Room 166</strong>
+                        </p>
+                        <p className="text-l md:text-xl opacity-75 mt-1">
+                            Zoom Link: <a className="underline" href="https://brown.zoom.us/j/96870814005">https://brown.zoom.us/j/96870814005</a>
                         </p>
                     </section>
                     <section>
@@ -112,7 +126,7 @@ const Home: NextPage = () => {
                         More stuff
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-                        <LinkCard title="Set up your development environment"
+                        <LinkCard title="Day 0: Set up your development environment"
                                   href="https://docs.google.com/document/d/1GjeZ70nuwvh98TgvfdgmNR8RN2BATtPcJik6GcAdbV0/edit?usp=sharing"
                                   description="Download and install the tooling we'll use throughout the week."/>
                         {/*<LinkCard title="Download project starter"*/}
