@@ -5,7 +5,7 @@ export default function ScheduleItem({
                                          handout,
                                          slides,
                                          recording,
-                                     }: { name: string; description: string; image: string; handout: string; slides?: string; recording: string; }) {
+                                     }: { name: string; description: string; image: string; handout: string; slides?: string; recording?: string; }) {
     return <li
         className="p-5 md:p-6 backdrop-blur-md bg-opacity-50 border border-[#30363C] bg-[#0B1016] rounded-lg">
         <div className="flex items-center justify-start">
