@@ -10,7 +10,7 @@ const workshops: { name: string; description: string; image: string; handout: st
         description: "Start with the underlying technologies of the web: HTML, CSS, and Javascript.",
         image: "/basics.png",
         handout: "https://docs.google.com/document/d/1a83KTdmtK0z4oZLaTgh_4ExTbAaTiTx3GJMGP-oLFsw/edit?usp=sharing",
-        // slides: "https://docs.google.com/presentation/d/13qkkdAVIT6mwLy4qyAY9ynSAAHfGfz1sezf2kOYoQCE/edit?usp=sharing",
+        slides: "https://docs.google.com/presentation/d/13qkkdAVIT6mwLy4qyAY9ynSAAHfGfz1sezf2kOYoQCE/edit?usp=sharing",
         recording: "",
     }, {
         name: "Day 2: Express + MongoDB",
