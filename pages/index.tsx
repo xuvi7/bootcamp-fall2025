@@ -12,7 +12,7 @@ const workshops: { name: string; description: string; image: string; handout: st
         image: "/basics.png",
         handout: "https://docs.google.com/document/d/1a83KTdmtK0z4oZLaTgh_4ExTbAaTiTx3GJMGP-oLFsw/edit?usp=sharing",
         slides: "https://docs.google.com/presentation/d/13qkkdAVIT6mwLy4qyAY9ynSAAHfGfz1sezf2kOYoQCE/edit?usp=sharing",
-        // recording: "",
+        recording: "https://brown.zoom.us/rec/share/uGXXyTsPD0g1Iq9B9Io7JClsrlD00Tf98ELdG6f5jrAyNPtqz5fV7oF8W3kQtfnu.RZhZiPMoNOeA1vp1",
     }, {
         name: "Day 2: Express + MongoDB",
         description: "Build a server to persist and manipulate data for your web apps using Express and MongoDB.",
