@@ -26,7 +26,7 @@ const workshops: { name: string; description: string; image: string; handout: st
         description: "Build a user interface for your app using React: a modern front-end framework.",
         image: "/react.png",
         handout: "https://docs.google.com/document/d/1_RKXZ8zZeOjXBCHqUUzdO9HZIn6HTNcIJ1zp0fMalBk/edit?usp=sharing",
-        slides: "https://docs.google.com/presentation/d/1D-jKkyuI6bpI2aY_oMRXehN5akXosjJOOSVK4wKgFEg/edit?usp=sharing",
+        slides: "https://docs.google.com/presentation/d/194jc7lsg56I22nKGKe1XghMUab8A-aHWvEEINgogH3A/edit?usp=sharing",
         recording: "https://brown.zoom.us/rec/share/Jy5c8U1Nh03YE_LD3ma3aDRd0SPE7MMdufCQUwb8NEip8-8YpFKGnuFIxcpmjCRw.wX9CGRDM04rhLouH",
     }, {
         name: "Day 4: Integration",
