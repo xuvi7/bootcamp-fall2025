@@ -33,8 +33,8 @@ const workshops: { name: string; description: string; image: string; handout: st
         description: "Connect your front-end with your server with API calls, then deploy your app to the web.",
         image: "/deploy.png",
         handout: "https://docs.google.com/document/d/12pslUWkeq9Hi14vUFoOc8QhwdFv6IpuvGPktHP8G0tw/edit?usp=sharing",
-        // slides: "",
-        // recording: "",
+        slides: "https://docs.google.com/presentation/d/1FKHH3A7mQQHUVhJzsFvXV4FObrTdZ71roqnkukrmFEw/edit?usp=sharing",
+        recording: "https://brown.zoom.us/rec/share/zM88u1r0WRDvX6nPybnlYVC7EWZ1R5IZtlyutVfb5IScPmmnD-gNxGWRK8UGQPU.96_hU7bwzUYP-uia",
     }, {
         name: "Day 5: Wrapping Up",
         description: "Add the finishing touches to your app, ask questions, and see where to go from here.",
