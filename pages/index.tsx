@@ -35,13 +35,6 @@ const workshops: { name: string; description: string; image: string; handout: st
         handout: "https://docs.google.com/document/d/12pslUWkeq9Hi14vUFoOc8QhwdFv6IpuvGPktHP8G0tw/edit?usp=sharing",
         slides: "https://docs.google.com/presentation/d/1FKHH3A7mQQHUVhJzsFvXV4FObrTdZ71roqnkukrmFEw/edit?usp=sharing",
         recording: "https://brown.zoom.us/rec/share/zM88u1r0WRDvX6nPybnlYVC7EWZ1R5IZtlyutVfb5IScPmmnD-gNxGWRK8UGQPU.96_hU7bwzUYP-uia",
-    }, {
-        name: "Day 5: Wrapping Up",
-        description: "Add the finishing touches to your app, ask questions, and see where to go from here.",
-        image: "/touches.png",
-        handout: "https://docs.google.com/document/d/1mLgCG-N6sSERUtWw7tUtKrjHyB6ZVi8leX0wHat4_jE/edit?usp=sharing",
-        // slides: "",
-        // recording: "",
     }];
 
 const Home: NextPage = () => {
@@ -54,8 +47,8 @@ const Home: NextPage = () => {
 
     return (<div>
         <Head>
-          <title>FSAB Bootcamp Spring 2022</title>
-          <meta property="og:title" content="FSAB Bootcamp Spring 2022" key="title" />
+          <title>FSAB Bootcamp Fall 2023</title>
+          <meta property="og:title" content="FSAB Bootcamp Fall 2023" key="title" />
         </Head>
         <div
             className={"min-h-screen transition-opacity ease-in duration-500 " + (loaded ? "opacity-100" : "opacity-0")}>
@@ -64,34 +57,35 @@ const Home: NextPage = () => {
                     className={`p-4 z-50 text-sm sm:text-base flex items-center justify-between fixed bg-opacity-40 transition-all duration-150 bg-[#06080D] backdrop-blur-lg w-full ${scrollPosition < 10 && "backdrop-blur-none bg-opacity-0"}`}>
                     <p className="font-bold">Full Stack at Brown</p>
                     <nav className="space-x-6">
-                        <a href="https://calendar.google.com/calendar/u/0?cid=Y19mbjd2a3NvcXMybGkxdjl1ZDg1MzZibWFoZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t">Add
-                            to Calendar</a>
-                        <a href="https://www.fullstackatbrown.com/about">About Us</a>
+                        {/* <a href="https://calendar.google.com/calendar/u/0?cid=Y19mbjd2a3NvcXMybGkxdjl1ZDg1MzZibWFoZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t">Add
+                            to Calendar</a> */}
+                        <p>Add to Calendar (TODO: FIX)</p>
+                        {/* <a href="https://www.fullstackatbrown.com/about">About Us</a> */}
                     </nav>
                 </div>
                 <div className="max-w-5xl px-4 mx-auto pt-36 space-y-24">
                     <section>
                         <p className="text-lg md:text-xl font-mono uppercase">
-                            Feb 14 — 18, 2022
+                            Sep 11 — 14, 202
                         </p>
                         <h1 className="mt-2 text-4xl md:text-6xl font-semibold">
                             Web Development Bootcamp
                         </h1>
                         <p className="text-xl md:text-2xl opacity-75 font-light mt-4">
-                            Meet other Full Stack at Brown members and enjoy a meal on us, all while learning modern web
+                            Meet other Full Stack at Brown members and enjoy a light snack on us, all while learning modern web
                             development.
                             Throughout the week, you&apos;ll learn industry-standard tooling and technologies by
                             building a real project you can add to your portfolio.
                         </p>
                         <p className="text-l md:text-xl opacity-75 mt-4">
-                            Times: <strong>February 14 - 18, 8pm - 10pm</strong>
+                            Times: <strong>September 11 - 14, 8pm - 10pm</strong>
                         </p>
                         <p className="text-l md:text-xl opacity-75 mt-1">
-                            Location: <strong>Barus & Holley Room 166</strong>
+                            Location: <strong>TODO: FIX</strong>
                         </p>
-                        <p className="text-l md:text-xl opacity-75 mt-1">
+                        {/* <p className="text-l md:text-xl opacity-75 mt-1">
                             Zoom Link: <a className="underline" href="https://brown.zoom.us/j/96870814005">https://brown.zoom.us/j/96870814005</a>
-                        </p>
+                        </p> */}
                     </section>
                     <section>
                         <h2 className="text-3xl md:text-4xl">
