@@ -10,31 +10,31 @@ const workshops: { name: string; description: string; image: string; handout: st
         name: "Day 1: Web Fundamentals",
         description: "Start with the underlying technologies of the web: HTML, CSS, and Javascript.",
         image: "/basics.png",
-        handout: "https://docs.google.com/document/d/1a83KTdmtK0z4oZLaTgh_4ExTbAaTiTx3GJMGP-oLFsw/edit?usp=sharing",
-        slides: "https://docs.google.com/presentation/d/13qkkdAVIT6mwLy4qyAY9ynSAAHfGfz1sezf2kOYoQCE/edit?usp=sharing",
-        recording: "https://brown.zoom.us/rec/share/uGXXyTsPD0g1Iq9B9Io7JClsrlD00Tf98ELdG6f5jrAyNPtqz5fV7oF8W3kQtfnu.RZhZiPMoNOeA1vp1",
+        handout: "https://docs.google.com/document/d/1c3VRt4PgSsJcJjQnO3ybej8tHbJF0gYu0Ydf-gZXvRw/edit?usp=sharing",
+        slides: "https://docs.google.com/presentation/d/1G2giTCFRvywLJ6Y0yccIgiDK3qyJx7T_mP6D4LH0TCA/edit?usp=sharing",
+        // recording: "https://brown.zoom.us/rec/share/uGXXyTsPD0g1Iq9B9Io7JClsrlD00Tf98ELdG6f5jrAyNPtqz5fV7oF8W3kQtfnu.RZhZiPMoNOeA1vp1",
     }, {
         name: "Day 2: Express + MongoDB",
         description: "Build a server to persist and manipulate data for your web apps using Express and MongoDB.",
         image: "/backend.png",
-        handout: "https://docs.google.com/document/d/1WxxlqsyOYnptE33OxHUHaWjfRItncqZWroQAjnVVgGw/edit?usp=sharing",
-        slides: "https://docs.google.com/presentation/d/1yBfiQoNkEKE_mJMCeOlfznsC-xPF8vqYelkZ54u8cRQ/edit?usp=sharing",
+        handout: "https://docs.google.com/document/d/1EYAvslfccZSvYkq_vKsWODYHLydxtU8PW0fCtJoAGMc/edit?usp=sharing",
+        slides: "https://docs.google.com/presentation/d/1hF3TuzTu6exQPA9ekFjQdP-OPg-E0-YeU5gUDayoLYw/edit?usp=sharing",
         // recording: "",
     },
     {
         name: "Day 3: React",
         description: "Build a user interface for your app using React: a modern front-end framework.",
         image: "/react.png",
-        handout: "https://docs.google.com/document/d/1_RKXZ8zZeOjXBCHqUUzdO9HZIn6HTNcIJ1zp0fMalBk/edit?usp=sharing",
-        slides: "https://docs.google.com/presentation/d/194jc7lsg56I22nKGKe1XghMUab8A-aHWvEEINgogH3A/edit?usp=sharing",
-        recording: "https://brown.zoom.us/rec/share/Jy5c8U1Nh03YE_LD3ma3aDRd0SPE7MMdufCQUwb8NEip8-8YpFKGnuFIxcpmjCRw.wX9CGRDM04rhLouH",
+        handout: "https://docs.google.com/document/d/1GuqxjAZ6mkzfLBbbJC14q0bCK3TRweEZS5lVXKzUS1E/edit?usp=sharing",
+        slides: "https://docs.google.com/presentation/d/1gDeKXtuXb33L6nT3cWZVKKxH3BrxFeU3W7zfLYHpbEY/edit?usp=sharing",
+        // recording: "https://brown.zoom.us/rec/share/Jy5c8U1Nh03YE_LD3ma3aDRd0SPE7MMdufCQUwb8NEip8-8YpFKGnuFIxcpmjCRw.wX9CGRDM04rhLouH",
     }, {
         name: "Day 4: Integration",
         description: "Connect your front-end with your server with API calls, then deploy your app to the web.",
         image: "/deploy.png",
-        handout: "https://docs.google.com/document/d/12pslUWkeq9Hi14vUFoOc8QhwdFv6IpuvGPktHP8G0tw/edit?usp=sharing",
-        slides: "https://docs.google.com/presentation/d/1FKHH3A7mQQHUVhJzsFvXV4FObrTdZ71roqnkukrmFEw/edit?usp=sharing",
-        recording: "https://brown.zoom.us/rec/share/zM88u1r0WRDvX6nPybnlYVC7EWZ1R5IZtlyutVfb5IScPmmnD-gNxGWRK8UGQPU.96_hU7bwzUYP-uia",
+        handout: "https://docs.google.com/document/d/1Hld8akpY6k5v2KeWvEoL1uS9mQZourflHn7bEljujfY/edit?usp=sharing",
+        slides: "https://docs.google.com/presentation/d/14RujbxgLKe6B06LPbI8jnSg5vpRmPuF67GAg_arPCWo/edit?usp=sharing",
+        // recording: "https://brown.zoom.us/rec/share/zM88u1r0WRDvX6nPybnlYVC7EWZ1R5IZtlyutVfb5IScPmmnD-gNxGWRK8UGQPU.96_hU7bwzUYP-uia",
     }];
 
 const Home: NextPage = () => {
@@ -121,14 +121,14 @@ const Home: NextPage = () => {
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                         <LinkCard title="Day 0: Set up your development environment"
-                                  href="https://docs.google.com/document/d/1GjeZ70nuwvh98TgvfdgmNR8RN2BATtPcJik6GcAdbV0/edit?usp=sharing"
+                                  href="https://docs.google.com/document/d/1olSoQayXFkPtc6a_v05fCKcyx-R1kZ69TndzWP9w7uo/edit?usp=sharing"
                                   description="Download and install the tooling we'll use throughout the week."/>
                         {/*<LinkCard title="Download project starter"*/}
                         {/*          description="Clone the starter code for the project we'll build together."/>*/}
                         {/*<LinkCard title="View project demo"*/}
                         {/*          description="See a live demo of the project you'll build throughout the week."/>*/}
                         <LinkCard title="Submit your project for certification"
-                                  href="https://docs.google.com/forms/d/e/1FAIpQLSdCtIwujK5cXeVbHaFWFARskiZulH22WFrirfNcdRE_VIBJLg/viewform?usp=sf_link"
+                                  href="https://forms.gle/pVP2G9pDBqaP2jNH9"
                                   description="Send us your completed bootcamp project to become eligible to work on projects for
                                     Full Stack."/>
                     </div>
