@@ -66,7 +66,7 @@ const Home: NextPage = () => {
                 <div className="max-w-5xl px-4 mx-auto pt-36 space-y-24">
                     <section>
                         <p className="text-lg md:text-xl font-mono uppercase">
-                            Sep 11 — 14, 202
+                            Sep 11 — 14, 2023
                         </p>
                         <h1 className="mt-2 text-4xl md:text-6xl font-semibold">
                             Web Development Bootcamp
@@ -121,7 +121,7 @@ const Home: NextPage = () => {
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                         <LinkCard title="Day 0: Set up your development environment"
-                                  href="https://docs.google.com/document/d/1olSoQayXFkPtc6a_v05fCKcyx-R1kZ69TndzWP9w7uo/edit?usp=sharing"
+                                href="https://docs.google.com/document/d/1olSoQayXFkPtc6a_v05fCKcyx-R1kZ69TndzWP9w7uo/edit?usp=sharing"
                                   description="Download and install the tooling we'll use throughout the week."/>
                         {/*<LinkCard title="Download project starter"*/}
                         {/*          description="Clone the starter code for the project we'll build together."/>*/}
