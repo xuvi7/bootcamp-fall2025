@@ -57,9 +57,8 @@ const Home: NextPage = () => {
                     className={`p-4 z-50 text-sm sm:text-base flex items-center justify-between fixed bg-opacity-40 transition-all duration-150 bg-[#06080D] backdrop-blur-lg w-full ${scrollPosition < 10 && "backdrop-blur-none bg-opacity-0"}`}>
                     <p className="font-bold">Full Stack at Brown</p>
                     <nav className="space-x-6">
-                        {/* <a href="https://calendar.google.com/calendar/u/0?cid=Y19mbjd2a3NvcXMybGkxdjl1ZDg1MzZibWFoZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t">Add
-                            to Calendar</a> */}
-                        <p>Add to Calendar (TODO: FIX)</p>
+                        <a href="https://calendar.google.com/calendar/u/0?cid=Y181NGI4ODA2NmE3N2U0MTdiODZiOTQ3NzVjZjhmOWFjMDZjYTgxMzJlNzBmMWJmYzcxODUxODRhZjNmYzJhYjU3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">Add
+                            to Calendar</a>
                         {/* <a href="https://www.fullstackatbrown.com/about">About Us</a> */}
                     </nav>
                 </div>
@@ -81,7 +80,7 @@ const Home: NextPage = () => {
                             Times: <strong>September 11 - 14, 8pm - 10pm</strong>
                         </p>
                         <p className="text-l md:text-xl opacity-75 mt-1">
-                            Location: <strong>TODO: FIX</strong>
+                            Location: <strong>Barus & Holley 166</strong>
                         </p>
                         {/* <p className="text-l md:text-xl opacity-75 mt-1">
                             Zoom Link: <a className="underline" href="https://brown.zoom.us/j/96870814005">https://brown.zoom.us/j/96870814005</a>
