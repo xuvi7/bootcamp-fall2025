@@ -48,7 +48,7 @@ const Home: NextPage = () => {
     return (<div>
         <Head>
             <title>FSAB Bootcamp Fall 2024</title>
-            <meta property="og:title" content="FSAB Bootcamp Fall 2023" key="title" />
+            <meta property="og:title" content="FSAB Bootcamp Fall 2024" key="title" />
         </Head>
         <div
             className={"min-h-screen transition-opacity ease-in duration-500 " + (loaded ? "opacity-100" : "opacity-0")}>
