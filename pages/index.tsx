@@ -47,7 +47,7 @@ const Home: NextPage = () => {
 
     return (<div>
         <Head>
-            <title>FSAB Bootcamp Fall 2023</title>
+            <title>FSAB Bootcamp Fall 2024</title>
             <meta property="og:title" content="FSAB Bootcamp Fall 2023" key="title" />
         </Head>
         <div
