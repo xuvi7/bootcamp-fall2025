@@ -10,8 +10,8 @@ const workshops: { name: string; description: string; image: string; handout: st
         name: "Day 1: Web Fundamentals",
         description: "Start with the underlying technologies of the web: HTML, CSS, and Javascript.",
         image: "/basics.png",
-        handout: "https://docs.google.com/document/d/1c3VRt4PgSsJcJjQnO3ybej8tHbJF0gYu0Ydf-gZXvRw/edit?usp=sharing",
-        slides: "https://docs.google.com/presentation/d/1G2giTCFRvywLJ6Y0yccIgiDK3qyJx7T_mP6D4LH0TCA/edit?usp=sharing",
+        handout: "https://docs.google.com/document/d/1ebg1N5oAA9KzijbEHk7_LFuOOuyaI5zROEAIAan7w_Q/edit?usp=sharing",
+        slides: "https://docs.google.com/presentation/d/1UH4LuQ4RpZlkUFiINjY3zi8f4fqpdAFO3zbL6K6Mcdo/edit?usp=sharing",
         // recording: "https://brown.zoom.us/rec/share/uGXXyTsPD0g1Iq9B9Io7JClsrlD00Tf98ELdG6f5jrAyNPtqz5fV7oF8W3kQtfnu.RZhZiPMoNOeA1vp1",
     }, {
         name: "Day 2: Express + MongoDB",
@@ -124,7 +124,7 @@ const Home: NextPage = () => {
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                         <LinkCard title="Day 0: Set up your development environment"
-                            href="https://docs.google.com/document/d/1olSoQayXFkPtc6a_v05fCKcyx-R1kZ69TndzWP9w7uo/edit?usp=sharing"
+                            href="https://docs.google.com/document/d/16nVVOitcIBJXxci-tApnr3Hp0v7vbCbWpbSNW_s3pFk/edit?usp=sharing"
                             description="Download and install the tooling we'll use throughout the week."
                         />
                         <LinkCard title="EXLUSIVE RECRUITING EVENT: RSVP For Sutter Hill Ventures x FSAB!"
