@@ -130,7 +130,7 @@ const Home: NextPage = () => {
                             href="https://docs.google.com/document/d/16nVVOitcIBJXxci-tApnr3Hp0v7vbCbWpbSNW_s3pFk/edit?usp=sharing"
                             description="Download and install the tooling we'll use throughout the week."
                         />
-                        <LinkCard title="EXLUSIVE RECRUITING EVENT: RSVP For Sutter Hill Ventures x FSAB!"
+                        <LinkCard title="EXCLUSIVE RECRUITING EVENT: RSVP For Sutter Hill Ventures x FSAB!"
                             href="https://forms.gle/wYz83WuHRXxa7von9"
                             description="Wednesday, September 18th, 6-8pm Salomon 001. Fill out the RSVP form!"
                         />
