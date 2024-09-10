@@ -17,8 +17,8 @@ const workshops: { name: string; description: string; image: string; handout: st
         name: "Day 2: Express + MongoDB",
         description: "Build a server to persist and manipulate data for your web apps using Express and MongoDB.",
         image: "/backend.png",
-        handout: "https://docs.google.com/document/d/1EYAvslfccZSvYkq_vKsWODYHLydxtU8PW0fCtJoAGMc/edit?usp=sharing",
-        slides: "https://docs.google.com/presentation/d/1hF3TuzTu6exQPA9ekFjQdP-OPg-E0-YeU5gUDayoLYw/edit?usp=sharing",
+        handout: "https://docs.google.com/document/d/1OUsq9DHk7-K0hC14dZpuYL_mR51mmxTfpkYXphof00U/edit?usp=sharing",
+        slides: "https://docs.google.com/presentation/d/1d8-7Dc2RJsPbKJ-ZndwGwcVKKeqB6DvFs02_vlVTikg/edit?usp=sharing",
         // recording: "",
     },
     {
@@ -94,8 +94,7 @@ const Home: NextPage = () => {
                             Schedule
                         </h2>
                         <ul className="space-y-4 mt-4">
-                            {/* NOTE: HIDING SECOND DAY BY SLICING TO 1 */}
-                            {workshops.slice(0, 1).map(workshop => <ScheduleItem key={workshop.name}
+                            {workshops.slice(0, 2).map(workshop => <ScheduleItem key={workshop.name}
                                 name={workshop.name}
                                 description={workshop.description}
                                 image={workshop.image}
