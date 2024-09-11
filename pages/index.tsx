@@ -19,14 +19,14 @@ const workshops: { name: string; description: string; image: string; handout: st
         image: "/backend.png",
         handout: "https://docs.google.com/document/d/1OUsq9DHk7-K0hC14dZpuYL_mR51mmxTfpkYXphof00U/edit?usp=sharing",
         slides: "https://docs.google.com/presentation/d/1d8-7Dc2RJsPbKJ-ZndwGwcVKKeqB6DvFs02_vlVTikg/edit?usp=sharing",
-        // recording: "",
+        recording: "https://brown.zoom.us/rec/play/TuWLCxLKRS3wps6E0Q00tijdcyel6G8fWu6kqJDkApiNNbHJ5mGwVHqnCb9HFitGT0XgF4Kk9kwuVYgV.VrgQNSkf6zKXKpHL?autoplay=true&startTime=1726012558000",
     },
     {
-        name: "Day 3: React",
+        name: "Day 3: React and NextJS",
         description: "Build a user interface for your app using React: a modern front-end framework.",
         image: "/react.png",
-        handout: "https://docs.google.com/document/d/1GuqxjAZ6mkzfLBbbJC14q0bCK3TRweEZS5lVXKzUS1E/edit?usp=sharing",
-        slides: "https://docs.google.com/presentation/d/1gDeKXtuXb33L6nT3cWZVKKxH3BrxFeU3W7zfLYHpbEY/edit?usp=sharing",
+        handout: "https://docs.google.com/document/d/1bjighpGkJ6kehmuQBB7XIVSigYV1waMyNfoIaYjB9HQ/edit?usp=sharing",
+        slides: "https://docs.google.com/presentation/d/1cseRjslSDr_mxVH6JWDLpg5NruFGhtS_2a_SbWqZq6w/edit?usp=sharing",
         // recording: "https://brown.zoom.us/rec/share/Jy5c8U1Nh03YE_LD3ma3aDRd0SPE7MMdufCQUwb8NEip8-8YpFKGnuFIxcpmjCRw.wX9CGRDM04rhLouH",
     }, {
         name: "Day 4: Integration",
@@ -108,9 +108,8 @@ const Home: NextPage = () => {
             <div className="max-w-5xl px-4 mx-auto space-y-24 mt-4">
                 <section>
                     {/* NOTE: HIDING THIRD AND FOURTH DAYS */}
-                    {/*
                     <ul className="space-y-4">
-                        {workshops.slice(2).map(workshop => <ScheduleItem key={workshop.name}
+                        {workshops.slice(2, 3).map(workshop => <ScheduleItem key={workshop.name}
                             name={workshop.name}
                             description={workshop.description}
                             image={workshop.image}
@@ -118,7 +117,6 @@ const Home: NextPage = () => {
                             slides={workshop.slides}
                             recording={workshop.recording} />)}
                     </ul>
-                    */}
                 </section>
                 <section>
                     <h2 className="text-3xl md:text-4xl">
