@@ -27,7 +27,7 @@ const workshops: { name: string; description: string; image: string; handout: st
         image: "/react.png",
         handout: "https://docs.google.com/document/d/1bjighpGkJ6kehmuQBB7XIVSigYV1waMyNfoIaYjB9HQ/edit?usp=sharing",
         slides: "https://docs.google.com/presentation/d/1cseRjslSDr_mxVH6JWDLpg5NruFGhtS_2a_SbWqZq6w/edit?usp=sharing",
-        recording: "https://brown.zoom.us/recording/detail?meeting_id=TwEgocnSTuuGVRhGOZuiOg%3D%3D",
+        recording: "https://brown.zoom.us/rec/share/NbVZkmpP7Qg557vW7QUNqhAMrOpQgokNITL56KOOr4bSkkUDp_nAEVKkMSoN7VlP.IgDTmc-AYqC7UUty?startTime=1726099267000",
         codeDemo: "https://github.com/kberdos/bootcamp-24-nextjs-example",
     }, {
         name: "Day 4: Integration",
