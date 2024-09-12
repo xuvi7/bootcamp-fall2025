@@ -27,7 +27,7 @@ const workshops: { name: string; description: string; image: string; handout: st
         image: "/react.png",
         handout: "https://docs.google.com/document/d/1bjighpGkJ6kehmuQBB7XIVSigYV1waMyNfoIaYjB9HQ/edit?usp=sharing",
         slides: "https://docs.google.com/presentation/d/1cseRjslSDr_mxVH6JWDLpg5NruFGhtS_2a_SbWqZq6w/edit?usp=sharing",
-        // recording: "https://brown.zoom.us/rec/share/Jy5c8U1Nh03YE_LD3ma3aDRd0SPE7MMdufCQUwb8NEip8-8YpFKGnuFIxcpmjCRw.wX9CGRDM04rhLouH",
+        recording: "https://brown.zoom.us/recording/detail?meeting_id=TwEgocnSTuuGVRhGOZuiOg%3D%3D",
     }, {
         name: "Day 4: Integration",
         description: "Connect your front-end with your server with API calls, then deploy your app to the web.",
