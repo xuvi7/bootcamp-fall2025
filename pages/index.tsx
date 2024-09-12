@@ -33,8 +33,8 @@ const workshops: { name: string; description: string; image: string; handout: st
         name: "Day 4: Integration",
         description: "Connect your front-end with your server with API calls, then deploy your app to the web.",
         image: "/deploy.png",
-        handout: "https://docs.google.com/document/d/1Hld8akpY6k5v2KeWvEoL1uS9mQZourflHn7bEljujfY/edit?usp=sharing",
-        slides: "https://docs.google.com/presentation/d/14RujbxgLKe6B06LPbI8jnSg5vpRmPuF67GAg_arPCWo/edit?usp=sharing",
+        handout: "https://docs.google.com/document/d/11P6LNeaB09XVtZyyZ5Myn4g2XQBQTjwq5-PJibeTRi8/edit?usp=sharing",
+        slides: "https://docs.google.com/presentation/d/1miYctl3iwwru6nG9MEL4Hq3KqL0WZvmMK19OowE0yQQ/edit?usp=sharing",
         // recording: "https://brown.zoom.us/rec/share/zM88u1r0WRDvX6nPybnlYVC7EWZ1R5IZtlyutVfb5IScPmmnD-gNxGWRK8UGQPU.96_hU7bwzUYP-uia",
     }];
 
@@ -112,7 +112,7 @@ const Home: NextPage = () => {
                 <section>
                     {/* NOTE: HIDING THIRD AND FOURTH DAYS */}
                     <ul className="space-y-4">
-                        {workshops.slice(2, 3).map(workshop => <ScheduleItem key={workshop.name}
+                        {workshops.slice(2).map(workshop => <ScheduleItem key={workshop.name}
                             name={workshop.name}
                             description={workshop.description}
                             image={workshop.image}
