@@ -5,7 +5,7 @@ import useScrollPosition from "../util/useScrollPosition";
 import { useEffect, useState } from "react";
 import LinkCard from "../components/LinkCard";
 
-const workshops: { name: string; description: string; image: string; handout: string; slides?: string; recording?: string; }[] = [
+const workshops: { name: string; description: string; image: string; handout: string; slides?: string; recording?: string; codeDemo?: string }[] = [
     {
         name: "Day 1: Web Fundamentals",
         description: "Start with the underlying technologies of the web: HTML, CSS, and Javascript.",
@@ -28,6 +28,7 @@ const workshops: { name: string; description: string; image: string; handout: st
         handout: "https://docs.google.com/document/d/1bjighpGkJ6kehmuQBB7XIVSigYV1waMyNfoIaYjB9HQ/edit?usp=sharing",
         slides: "https://docs.google.com/presentation/d/1cseRjslSDr_mxVH6JWDLpg5NruFGhtS_2a_SbWqZq6w/edit?usp=sharing",
         recording: "https://brown.zoom.us/recording/detail?meeting_id=TwEgocnSTuuGVRhGOZuiOg%3D%3D",
+        codeDemo: "https://github.com/kberdos/bootcamp-24-nextjs-example",
     }, {
         name: "Day 4: Integration",
         description: "Connect your front-end with your server with API calls, then deploy your app to the web.",
@@ -100,7 +101,9 @@ const Home: NextPage = () => {
                                 image={workshop.image}
                                 handout={workshop.handout}
                                 slides={workshop.slides}
-                                recording={workshop.recording} />)}
+                                recording={workshop.recording}
+                                codeDemo={workshop.codeDemo}
+                            />)}
                         </ul>
                     </section>
                 </div>
@@ -115,7 +118,9 @@ const Home: NextPage = () => {
                             image={workshop.image}
                             handout={workshop.handout}
                             slides={workshop.slides}
-                            recording={workshop.recording} />)}
+                            recording={workshop.recording}
+                            codeDemo={workshop.codeDemo}
+                        />)}
                     </ul>
                 </section>
                 <section>
