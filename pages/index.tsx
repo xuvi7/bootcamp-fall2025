@@ -35,7 +35,7 @@ const workshops: { name: string; description: string; image: string; handout: st
         image: "/deploy.png",
         handout: "https://docs.google.com/document/d/11P6LNeaB09XVtZyyZ5Myn4g2XQBQTjwq5-PJibeTRi8/edit?usp=sharing",
         slides: "https://docs.google.com/presentation/d/1miYctl3iwwru6nG9MEL4Hq3KqL0WZvmMK19OowE0yQQ/edit?usp=sharing",
-        // recording: "https://brown.zoom.us/rec/share/zM88u1r0WRDvX6nPybnlYVC7EWZ1R5IZtlyutVfb5IScPmmnD-gNxGWRK8UGQPU.96_hU7bwzUYP-uia",
+        recording: "https://brown.zoom.us/rec/share/RW-vst_prKGT1hh9vOuHwwsYBPmYJvTBprG6OQ1eravlfQLq3kKVP_UUDSV_GdLn.mCm1lhzwVBSQMgss",
     }];
 
 const Home: NextPage = () => {
