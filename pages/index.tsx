@@ -121,10 +121,10 @@ const Home: NextPage = () => {
               <p className="text-l md:text-xl opacity-75 mt-1">
                 Location: <strong>Barus & Holley 166</strong>
               </p>
-              {/* <p className="text-l md:text-xl opacity-75 mt-5">
-                *Note that Designer Bootcamp times are:{" "}
-                <strong>September 24 - 25, 8pm - 10:30pm</strong>
-              </p> */}
+              <p className="text-l md:text-xl opacity-75 mt-5">
+                *Note that Designer Bootcamp times is on{" "}
+                <strong>September 15, 7pm - 10pm</strong>
+              </p>
               {/* <p className="text-l md:text-xl opacity-75 mt-1">
                             Zoom Link: <a className="underline" href="https://brown.zoom.us/j/96870814005">https://brown.zoom.us/j/96870814005</a>
                         </p> */}
