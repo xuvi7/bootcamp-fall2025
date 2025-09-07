@@ -93,7 +93,7 @@ const Home: NextPage = () => {
           >
             <p className="font-bold">Full Stack at Brown</p>
             <nav className="space-x-6">
-              <a href="https://calendar.google.com/calendar/u/0?cid=Y19hZWVkMmJiNGY3YTE5ZGE1NGMyYTYzODBjNWUzODA2OTkwNzMxYjU5ZGExYzk3YjhjMDViZDA2OTEyYjM2NTY2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">
+              <a href="https://calendar.google.com/calendar/u/0?cid=Y18zYWZlZWE4M2RkMTM0MWExNDA3MGJkMTAwYmE5ODJhYmEwOTYxMWQ2OTE4N2FjYzNmZmRmYWJjYjA1NGE5YjYyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">
                 Add to Calendar
               </a>
               {/* <a href="https://www.fullstackatbrown.com/about">About Us</a> */}
