@@ -19,49 +19,40 @@ const workshops: {
     description:
       "Start with the underlying technologies of the web: HTML, CSS, and Javascript.",
     image: "/basics.png",
-    handout:
-      "https://docs.google.com/document/d/1ebg1N5oAA9KzijbEHk7_LFuOOuyaI5zROEAIAan7w_Q/edit?usp=sharing",
-    slides:
-      "https://docs.google.com/presentation/d/1UH4LuQ4RpZlkUFiINjY3zi8f4fqpdAFO3zbL6K6Mcdo/edit?usp=sharing",
-    recording:
-      "https://brown.zoom.us/rec/play/OMPtO6TKitEimhG-GPfZT3tE_aPXoJzCmtKd8utLzRUQB6XL7aXLUW0RMncuVCG__S6c9czlx6NTIwBi.sjlqbcN0o2gynRey?autoplay=true&startTime=1725926381000",
+    handout: "",
+    slides: "",
+    recording: "",
+    codeDemo: "",
   },
   {
     name: "Day 2: Express + MongoDB",
     description:
       "Build a server to persist and manipulate data for your web apps using Express and MongoDB.",
     image: "/backend.png",
-    handout:
-      "https://docs.google.com/document/d/1OUsq9DHk7-K0hC14dZpuYL_mR51mmxTfpkYXphof00U/edit?usp=sharing",
-    slides:
-      "https://docs.google.com/presentation/d/1d8-7Dc2RJsPbKJ-ZndwGwcVKKeqB6DvFs02_vlVTikg/edit?usp=sharing",
-    recording:
-      "https://brown.zoom.us/rec/play/TuWLCxLKRS3wps6E0Q00tijdcyel6G8fWu6kqJDkApiNNbHJ5mGwVHqnCb9HFitGT0XgF4Kk9kwuVYgV.VrgQNSkf6zKXKpHL?autoplay=true&startTime=1726012558000",
+    handout: "",
+    slides: "",
+    recording: "",
+    codeDemo: "",
   },
   {
     name: "Day 3: React and NextJS",
     description:
       "Build a user interface for your app using React: a modern front-end framework.",
     image: "/react.png",
-    handout:
-      "https://docs.google.com/document/d/1bjighpGkJ6kehmuQBB7XIVSigYV1waMyNfoIaYjB9HQ/edit?usp=sharing",
-    slides:
-      "https://docs.google.com/presentation/d/1cseRjslSDr_mxVH6JWDLpg5NruFGhtS_2a_SbWqZq6w/edit?usp=sharing",
-    recording:
-      "https://brown.zoom.us/rec/play/my083s-I7ZGmwSeC91-uUq_i5aA6-W394NFB2Ci4RZzK5Hu8IsnIsU8r7gEgiP90KyyQyEXSDurDr-HC.6fGGIT7coDOk3zWt?autoplay=true&startTime=1726099267000",
-    codeDemo: "https://github.com/kberdos/bootcamp-24-nextjs-example",
+    handout: "",
+    slides: "",
+    recording: "",
+    codeDemo: "",
   },
   {
     name: "Day 4: Integration",
     description:
       "Connect your front-end with your server with API calls, then deploy your app to the web.",
     image: "/deploy.png",
-    handout:
-      "https://docs.google.com/document/d/11P6LNeaB09XVtZyyZ5Myn4g2XQBQTjwq5-PJibeTRi8/edit?usp=sharing",
-    slides:
-      "https://docs.google.com/presentation/d/1miYctl3iwwru6nG9MEL4Hq3KqL0WZvmMK19OowE0yQQ/edit?usp=sharing",
-    recording:
-      "https://brown.zoom.us/rec/share/RW-vst_prKGT1hh9vOuHwwsYBPmYJvTBprG6OQ1eravlfQLq3kKVP_UUDSV_GdLn.mCm1lhzwVBSQMgss",
+    handout: "",
+    slides: "",
+    recording: "",
+    codeDemo: "",
   },
 ];
 
@@ -76,10 +67,10 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>FSAB Bootcamp Fall 2024</title>
+        <title>FSAB Bootcamp Fall 2025</title>
         <meta
           property="og:title"
-          content="FSAB Bootcamp Fall 2024"
+          content="FSAB Bootcamp Fall 2025"
           key="title"
         />
       </Head>
@@ -111,7 +102,7 @@ const Home: NextPage = () => {
           <div className="max-w-5xl px-4 mx-auto pt-36 space-y-24">
             <section>
               <p className="text-lg md:text-xl font-mono uppercase">
-                Sep 9 - 12, 2024
+                Sep 8 - 11, 2025
               </p>
               <h1 className="mt-2 text-4xl md:text-6xl font-semibold">
                 Web Development Bootcamp
@@ -125,23 +116,42 @@ const Home: NextPage = () => {
               </p>
               <p className="text-l md:text-xl opacity-75 mt-4">
                 Developer Bootcamp Times:{" "}
-                <strong>September 9 - 12, 8pm - 10:30pm</strong>
+                <strong>September 8 - 11, 8pm - 10pm</strong>
               </p>
               <p className="text-l md:text-xl opacity-75 mt-1">
                 Location: <strong>Barus & Holley 166</strong>
               </p>
-              <p className="text-l md:text-xl opacity-75 mt-5">
+              {/* <p className="text-l md:text-xl opacity-75 mt-5">
                 *Note that Designer Bootcamp times are:{" "}
                 <strong>September 24 - 25, 8pm - 10:30pm</strong>
-              </p>
+              </p> */}
               {/* <p className="text-l md:text-xl opacity-75 mt-1">
                             Zoom Link: <a className="underline" href="https://brown.zoom.us/j/96870814005">https://brown.zoom.us/j/96870814005</a>
                         </p> */}
             </section>
             <section>
+                <h2 className="text-3xl md:text-4xl">Start here</h2>
+                <div className="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
+                <LinkCard
+                    title="Day 0: Set up your development environment"
+                    href="https://docs.google.com/document/d/15nurvFiFPmhoitYft4K-277kwyvxbvCcnF9UZKk0Ak8/edit?usp=sharing"
+                    description="Download and install the tooling we'll use throughout the week."
+                />
+                {/* <LinkCard
+                    title="EXCLUSIVE RECRUITING EVENT: RSVP For Sutter Hill Ventures x FSAB!"
+                    href="https://forms.gle/wYz83WuHRXxa7von9"
+                    description="Wednesday, September 18th, 6-8pm Salomon 001. Fill out the RSVP form!"
+                /> */}
+                {/* <LinkCard title="Submit your project for certification"
+                    href="https://forms.gle/pVP2G9pDBqaP2jNH9"
+                    description="Send us your completed bootcamp project to become eligible to work on projects for
+                            Full Stack."/> */}
+                </div>
+            </section>
+            <section>
               <h2 className="text-3xl md:text-4xl">Schedule</h2>
               <ul className="space-y-4 mt-4">
-                {workshops.slice(0, 2).map((workshop) => (
+                {workshops.slice(0, 4).map((workshop) => (
                   <ScheduleItem
                     key={workshop.name}
                     name={workshop.name}
@@ -158,44 +168,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className="max-w-5xl px-4 mx-auto space-y-24 mt-4">
-          <section>
-            {/* NOTE: HIDING THIRD AND FOURTH DAYS */}
-            <ul className="space-y-4">
-              {workshops.slice(2).map((workshop) => (
-                <ScheduleItem
-                  key={workshop.name}
-                  name={workshop.name}
-                  description={workshop.description}
-                  image={workshop.image}
-                  handout={workshop.handout}
-                  slides={workshop.slides}
-                  recording={workshop.recording}
-                  codeDemo={workshop.codeDemo}
-                />
-              ))}
-            </ul>
-          </section>
-          <section>
-            <h2 className="text-3xl md:text-4xl">More stuff</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-              <LinkCard
-                title="Day 0: Set up your development environment"
-                href="https://docs.google.com/document/d/16nVVOitcIBJXxci-tApnr3Hp0v7vbCbWpbSNW_s3pFk/edit?usp=sharing"
-                description="Download and install the tooling we'll use throughout the week."
-              />
-              <LinkCard
-                title="EXCLUSIVE RECRUITING EVENT: RSVP For Sutter Hill Ventures x FSAB!"
-                href="https://forms.gle/wYz83WuHRXxa7von9"
-                description="Wednesday, September 18th, 6-8pm Salomon 001. Fill out the RSVP form!"
-              />
-              {/*
-                        <LinkCard title="Submit your project for certification"
-                            href="https://forms.gle/pVP2G9pDBqaP2jNH9"
-                            description="Send us your completed bootcamp project to become eligible to work on projects for
-                                    Full Stack."/>
-                        */}
-            </div>
-          </section>
+          
         </div>
         <footer>
           <p className="text-center opacity-40 mb-12 my-24">

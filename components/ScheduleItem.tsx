@@ -20,7 +20,7 @@ export default function ScheduleItem({
                 </p>
             </div>
         </div>
-        <div className="space-x-5 mt-6 text-xs md:text-sm opacity-50">
+        {handout && <div className="space-x-5 mt-6 text-xs md:text-sm opacity-50">
             <a className="inline-flex items-center" href={handout}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-1" viewBox="0 0 20 20">
                     <path fillRule="evenodd" fill="currentColor"
@@ -54,6 +54,6 @@ export default function ScheduleItem({
                 </svg>
                 Live Code from Bootcamp
             </a>}
-        </div>
+        </div>}
     </li>
 }
