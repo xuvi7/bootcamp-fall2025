@@ -19,8 +19,8 @@ const workshops: {
     description:
       "Start with the underlying technologies of the web: HTML, CSS, and Javascript.",
     image: "/basics.png",
-    handout: "",
-    slides: "",
+    handout: "https://docs.google.com/document/d/1EkeDljCd3__yc76P9Q5Uwhc9WBmXVhkrO7JAmMlWMag/edit?usp=sharing",
+    slides: "https://docs.google.com/presentation/d/1B2tmv1Bw4r8p9NCF2DhYY6FrZzR-u0bMrXfxOM9Uctc/edit?usp=sharing",
     recording: "",
     codeDemo: "",
   },
