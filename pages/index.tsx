@@ -29,8 +29,8 @@ const workshops: {
     description:
       "Build a server to persist and manipulate data for your web apps using Express and MongoDB.",
     image: "/backend.png",
-    handout: "",
-    slides: "",
+    handout: "https://docs.google.com/document/d/1niaQTAQ2ixTv8rNrUKeISNStTLpBO4qG-jRHoAY6wdI/edit?usp=sharing",
+    slides: "https://docs.google.com/presentation/d/1ZB7bpQwy1D506Cq-bVrZonntrH1eqO1LpHdM7ypwi38/edit?usp=sharing",
     recording: "",
     codeDemo: "",
   },
