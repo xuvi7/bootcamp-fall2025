@@ -39,8 +39,8 @@ const workshops: {
     description:
       "Build a user interface for your app using React: a modern front-end framework.",
     image: "/react.png",
-    handout: "",
-    slides: "",
+    handout: "https://docs.google.com/document/d/1rqgHuYt1Jkc_eFFbkinOaVXAoGQaW7inD6Fkd017S_4/edit?usp=sharing",
+    slides: "https://docs.google.com/presentation/d/1DLXmMysyJkrvvrXMK7alR0pPg33DV2EHke_XzkfOSnM/edit?usp=sharing",
     recording: "",
     codeDemo: "",
   },
