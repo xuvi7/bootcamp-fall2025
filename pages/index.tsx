@@ -31,7 +31,7 @@ const workshops: {
     image: "/backend.png",
     handout: "https://docs.google.com/document/d/1niaQTAQ2ixTv8rNrUKeISNStTLpBO4qG-jRHoAY6wdI/edit?usp=sharing",
     slides: "https://docs.google.com/presentation/d/1ZB7bpQwy1D506Cq-bVrZonntrH1eqO1LpHdM7ypwi38/edit?usp=sharing",
-    recording: "",
+    recording: "https://brown.zoom.us/rec/play/WBJOtLH5QKd-09j_PlFoRdEwEcy9rKG-YM2p_ALf176sJa9Ga6MxeSBcradKRS4nJT8-YMC6_acPaY8F.YzZStsFeKUherFdm?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fbrown.zoom.us%2Frec%2Fshare%2Fv8Ye5Rr002RZ2p2uBBgI9PAUJ5EdwyUoQRcsbKqQoGjvW0dVTXjXZv7g7e_Hu5IQ.S-brF9ufU23n3Skh",
     codeDemo: "",
   },
   {
