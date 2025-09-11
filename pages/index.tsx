@@ -49,8 +49,8 @@ const workshops: {
     description:
       "Connect your front-end with your server with API calls, then deploy your app to the web.",
     image: "/deploy.png",
-    handout: "",
-    slides: "",
+    handout: "https://docs.google.com/document/d/1tG2aWKRwushTSUOmDt7Uxi3qwWBuq-0yFIKW-mBfqKg/edit",
+    slides: "https://docs.google.com/presentation/d/1n5WTlMcAgTizGEvxvQSvmS3VgX56f5zNckpVt9d_k_s/edit",
     recording: "",
     codeDemo: "",
   },
