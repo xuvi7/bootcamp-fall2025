@@ -51,7 +51,7 @@ const workshops: {
     image: "/deploy.png",
     handout: "https://docs.google.com/document/d/1tG2aWKRwushTSUOmDt7Uxi3qwWBuq-0yFIKW-mBfqKg/edit",
     slides: "https://docs.google.com/presentation/d/1n5WTlMcAgTizGEvxvQSvmS3VgX56f5zNckpVt9d_k_s/edit",
-    recording: "",
+    recording: "https://drive.google.com/file/d/1r90--LzXpLFRulJIND7B9w-WrU11SYk-/view?usp=drive_link",
     codeDemo: "",
   },
 ];
