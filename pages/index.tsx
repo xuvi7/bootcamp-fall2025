@@ -130,27 +130,27 @@ const Home: NextPage = () => {
                         </p> */}
             </section>
             <section>
-                <h2 className="text-3xl md:text-4xl">Start here</h2>
+                <h2 className="text-3xl md:text-4xl">Join Full Stack!</h2>
                 <div className="grid grid-cols-1 md:grid-cols-1 gap-4 mt-4">
-                <LinkCard
-                    title="Day 0: Set up your development environment"
-                    href="https://docs.google.com/document/d/15nurvFiFPmhoitYft4K-277kwyvxbvCcnF9UZKk0Ak8/edit?usp=sharing"
-                    description="Download and install the tooling we'll use throughout the week."
-                />
-                {/* <LinkCard
-                    title="EXCLUSIVE RECRUITING EVENT: RSVP For Sutter Hill Ventures x FSAB!"
-                    href="https://forms.gle/wYz83WuHRXxa7von9"
-                    description="Wednesday, September 18th, 6-8pm Salomon 001. Fill out the RSVP form!"
-                /> */}
-                {/* <LinkCard title="Submit your project for certification"
-                    href="https://forms.gle/pVP2G9pDBqaP2jNH9"
-                    description="Send us your completed bootcamp project to become eligible to work on projects for
-                            Full Stack."/> */}
+                    {/* <LinkCard
+                        title="EXCLUSIVE RECRUITING EVENT: RSVP For Sutter Hill Ventures x FSAB!"
+                        href="https://forms.gle/wYz83WuHRXxa7von9"
+                        description="Wednesday, September 18th, 6-8pm Salomon 001. Fill out the RSVP form!"
+                    /> */}
+                    <LinkCard title="Submit your project for certification"
+                        href="https://forms.gle/SGLbmPcMXoajAw6w5"
+                        description="Send us your completed bootcamp project to become eligible to work on projects for
+                                Full Stack."/>
                 </div>
             </section>
             <section>
               <h2 className="text-3xl md:text-4xl">Schedule</h2>
               <ul className="space-y-4 mt-4">
+                <LinkCard
+                    title="Day 0: Set up your development environment"
+                    href="https://docs.google.com/document/d/15nurvFiFPmhoitYft4K-277kwyvxbvCcnF9UZKk0Ak8/edit?usp=sharing"
+                    description="Download and install the tooling we'll use throughout the week."
+                />
                 {workshops.slice(0, 4).map((workshop) => (
                   <ScheduleItem
                     key={workshop.name}
